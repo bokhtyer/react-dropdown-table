@@ -2,6 +2,7 @@
 import { ReactElement, ReactNode, useEffect, useRef, useState } from "react";
 import "./ReactDropdownTable.css";
 import { handleClickOutside } from "../../helpers/helper";
+import React from "react";
 // import DropdownArrow from "../../helpers/DropdownArrow";
 
 type PropsType = {
