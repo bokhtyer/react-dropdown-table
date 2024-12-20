@@ -8,7 +8,9 @@ To install the component, use npm:
 
 ```bash
 npm install react-dropdown-table
-# or
+```
+
+```bash
 yarn add react-dropdown-table
 ```
 
