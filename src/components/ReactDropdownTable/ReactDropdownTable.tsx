@@ -2,8 +2,7 @@
 import { ReactElement, ReactNode, useEffect, useRef, useState } from "react";
 import "./ReactDropdownTable.css";
 import { handleClickOutside } from "../../helpers/helper";
-import DropdownArrow from "../../helpers/DropdownArrow";
-import React from "react";
+// import DropdownArrow from "../../helpers/DropdownArrow";
 
 type PropsType = {
     className?: string;
@@ -113,7 +112,8 @@ export default function ReactDropdownTable(props: PropsType) {
                 ref={buttonRef}
                 onClick={() => setActive(!active)}
             >
-                {button} {arrow && <DropdownArrow />}
+                {button}
+                {/* {arrow && <DropdownArrow />} */}
             </div>
 
             <div

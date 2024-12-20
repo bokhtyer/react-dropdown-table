@@ -1,6 +1,6 @@
 {
     "name": "react-dropdown-table",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "react dropdown table. in this package solved react dropdown table outsite show or parent overfollow issue fix. this package use easily",
     "main": "src/index.ts",
     "scripts": {
