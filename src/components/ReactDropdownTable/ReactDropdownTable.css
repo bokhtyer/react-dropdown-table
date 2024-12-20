@@ -1,0 +1,63 @@
+.rdpt-dropdown-content {
+    position: fixed;
+    display: none;
+}
+.rdpt-dropdown-content.active {
+    display: block;
+}
+.rdpt-dropdown .rdpt-drop-btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background: #00a522;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.rdpt-dropdown .rdpt-drop-btn:hover {
+    background: #007919;
+}
+.rdpt-dropdown .rdpt-drop-btn svg {
+    float: left;
+    overflow: hidden;
+    padding-left: 4px;
+    width: 18px;
+    height: 18px;
+    line-height: 1;
+    padding-top: 2px;
+}
+.rdpt-dropdown .rdpt-drop-btn div {
+    float: left;
+}
+.rdpt-dropdown .rdpt-dropdown-content {
+    background: #fff;
+    padding: 10px 0px;
+    width: 100%;
+    box-shadow: rgb(104 116 116 / 11%) 0px 6px 24px 0px, rgb(199 199 199 / 8%) 0px 0px 0px 1px;
+    border-radius: 5px;
+}
+.rdpt-dropdown .rdpt-dropdown-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.rdpt-dropdown .rdpt-dropdown-content ul li {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #292936;
+    transition: all 0.1s ease;
+    box-sizing: border-box;
+}
+.rdpt-dropdown .rdpt-dropdown-content ul li:hover {
+    background: #a49dbe1c;
+}
+.rdpt-dropdown .rdpt-dropdown-content ul li a {
+    text-decoration: none;
+    color: #292936;
+}
