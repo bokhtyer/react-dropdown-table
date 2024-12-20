@@ -1,42 +1,45 @@
-ReactDropdownTable
+# ReactDropdownTable
+
 A customizable React dropdown table component with dynamic positioning and optional arrow icons.
 
-Installation
+## Installation
+
 To install the component, use npm:
 
-bash
-Copy code
+```bash
 npm install react-dropdown-table
-Usage
+# or
+yarn add react-dropdown-table
+```
+
+# Usage
+
 Here’s how to use the ReactDropdownTable component in your React project:
 
-Basic Example
-tsx
-Copy code
-import React from "react";
+## Quick Start
+
+```jsx
 import ReactDropdownTable from "react-dropdown-table";
 
-const App: React.FC = () => {
-return (
-<div>
-<h2>React Dropdown Table Example</h2>
-<ReactDropdownTable button={"Click Here"} position={true} arrow={true}>
-<ul>
-<li>Hello World</li>
-<li>
-<a href="#">Profile</a>
-</li>
-<li>
-<a href="#">Purchase History</a>
-</li>
-<li>
-<a href="#">Logout</a>
-</li>
-</ul>
-</ReactDropdownTable>
-</div>
-);
-};
+function App() {
+    return (
+        <ReactDropdownTable button={"Click Me"} position={true} arrow={true}>
+            <ul>
+                <li>Hello World</li>
+                <li>
+                    <a href="#">Profile</a>
+                </li>
+                <li>
+                    <a href="#">Purchase History</a>
+                </li>
+                <li>
+                    <a href="#">Logout</a>
+                </li>
+            </ul>
+        </ReactDropdownTable>
+    );
+}
+```
 
 export default App;
 Props Table
