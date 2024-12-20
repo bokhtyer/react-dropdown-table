@@ -12,7 +12,7 @@ const DropdownArrow = () => {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className={`transition-transform ${className}`}
+            className={`transition-transform `}
         >
             <path d="M6 9l6 6 6-6" />
         </svg>
