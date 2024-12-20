@@ -103,3 +103,17 @@ The dropdown adjusts its position based on available screen space:
 | `customStyle` | `boolean`              | `false`           | If `true` then not working default css                                          |
 | `className`   | `string`               | `your-class-name` | You can pass your custom class and style update                                 |
 | `maxWidth`    | `string`               | `180px`           | You can customize dropdown item width                                           |
+
+# License
+
+This project is licensed under the MIT License.
+
+# Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+# Support
+
+For any questions or issues, please contact me via [GitHub. 🚀](https://github.com/bokhtyer/react-dropdown-table)
+
+## Happy Coding! 🚀
