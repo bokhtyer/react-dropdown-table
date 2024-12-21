@@ -23,10 +23,11 @@
     float: left;
     overflow: hidden;
     padding-left: 4px;
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     line-height: 1;
     padding-top: 2px;
+    fill: #fff;
 }
 .rdpt-dropdown .rdpt-drop-btn div {
     float: left;
