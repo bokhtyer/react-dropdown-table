@@ -114,6 +114,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 # Support
 
-For any questions or issues, please contact me via [GitHub. 🚀](https://github.com/bokhtyer/react-dropdown-table)
+For any questions or issues, please contact me via [GitHub. 🚀](https://github.com/bokhtyer/)
 
 ## Happy Coding! 🚀
